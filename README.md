@@ -5,7 +5,7 @@ The first cell allows you to define the sudoku grid as an array. The last cell s
 
 Currently there ar two solving mechanisms:
 
-*solve() - solves the puzzle using backtracking
-*solveSinglePossibilities() - puts in values into cells that only have once possibility. This fucntion can be repeated.
+- solve() - solves the puzzle using backtracking
+- solveSinglePossibilities() - puts in values into cells that only have once possibility. This fucntion can be repeated.
 
-There is also a function getPossibleValues() that shows all possible values for a given cell.
+There is also a function *getPossibleValues()* that shows all possible values for a given cell.
